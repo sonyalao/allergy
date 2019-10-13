@@ -4,11 +4,15 @@ import "./App.css";
 import CreateAccount from "./CreateAccount";
 import AllergenPage from "./AllergenPage";
 import Restaurants from "./Restaurants";
+import NavBar from "./Restaurants/Components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <Restaurants />
+      <main>
+        <Restaurants />
+      </main>
+      <NavBar />
     </div>
   );
 }

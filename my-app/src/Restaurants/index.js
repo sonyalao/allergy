@@ -1,12 +1,16 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
+import RestaurantList from "./Components/RestaurantList";
 
 class Restaurants extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
   render() {
     return (
-      <div>
-        <h1>Restaurants.</h1>
-        <NavBar />
+      <div class="content">
+        <RestaurantList />
       </div>
     );
   }
