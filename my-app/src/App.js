@@ -3,14 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import CreateAccount from "./CreateAccount";
 import AllergenPage from "./AllergenPage";
+import Restaurants from "./Restaurants";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <CreateAccount test={"hi"}/>
-        <AllergenPage />
-      </header>
+      <Restaurants />
     </div>
   );
 }
